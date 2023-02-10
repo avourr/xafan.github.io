@@ -1,0 +1,136 @@
+/* * */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    color: #fff;
+    outline: none;
+    font: 1rem / 1.4 sans-serif;
+    font-family: poppins, sans-serif;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #1e2124;
+}
+
+h1 {
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+    font-size: 16.5px;
+    font-weight: 400;
+    margin: 0 0 10px;
+    opacity: .7;
+}
+
+.container {
+    padding: 0.01em 20%;
+}
+
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+/* nav */
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 5px;
+    background: rgba(0,0,0,.2);
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.nav-link {
+    float: left;
+}
+.nav-link a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 5px;
+    margin: 5px;
+    text-decoration: none;
+    opacity: .7;
+    transition: 0.3s;
+}
+.nav-link a.active {
+    opacity: 1;
+}
+.nav-link a:hover {
+    opacity: 1;
+}
+
+/* main */
+.center {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.btn {
+    transition: 0.3s;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    overflow: hidden;
+    user-select: none;
+    outline: none;
+    border: none;
+    background: #5865F2;
+    font-size: 1em;
+    text-decoration: none;
+    opacity: .7;
+}
+.btn:hover {
+    opacity: 1;
+}
+
+/* projects */
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+.cards .card {
+    height: 100%;
+    align-items: center;
+    column-gap: 10px;
+    width: calc(100% - 10px);
+    margin: 0 auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    transition: all .2s ease;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    color: #fff;
+    text-decoration: none;
+    background: rgba(0,0,0,.2);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    text-align: left;
+}
+.cards .card .title {
+    font-size: 16.5px;
+    font-weight: 200;
+    margin: 0 0 3.3px;
+}
+.cards .card .info {
+    opacity: .8;
+    font-size: .9em;
+}
